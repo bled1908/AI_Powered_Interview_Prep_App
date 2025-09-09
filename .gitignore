@@ -96,3 +96,12 @@ yarn-error.log*
 *.tsv
 *.xls*
 *.parquet
+
+
+# Backend uploads (ignore all except .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Ignore logs
+logs/
+*.log
