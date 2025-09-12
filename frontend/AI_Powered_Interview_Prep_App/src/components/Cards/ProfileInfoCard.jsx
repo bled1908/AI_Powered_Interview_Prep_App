@@ -1,6 +1,5 @@
-import React from 'react'
-import { useContext } from 'react'
-import { UserContext } from '../../context/userContext'
+import React, { useContext } from 'react';
+import { UserContext } from '../../context/userContext';
 import { useNavigate } from 'react-router-dom';
 
 const ProfileInfoCard = () => {
@@ -13,7 +12,8 @@ const ProfileInfoCard = () => {
         navigate("/");
     };
 
-    return (
+    return ( 
+        user && (
         <div className="flex items-center">
             <img
                 src={user.profileImageUrl}
@@ -35,6 +35,7 @@ const ProfileInfoCard = () => {
             </div>
         </div>
     )
-}
+    )
+};
 
 export default ProfileInfoCard
