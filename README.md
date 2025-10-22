@@ -29,8 +29,8 @@ A full-stack web application that leverages AI to help users prepare for intervi
 ## Tech Stack
 - **Frontend:** React, Vite, CSS
 - **Backend:** Node.js, Express
-- **Database:** (Add your DB, e.g., MongoDB)
-- **AI Integration:** (Specify, e.g., OpenAI API)
+- **Database:** MongoDB
+- **AI Integration:** Gemini API
 
 ## Getting Started
 
