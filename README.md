@@ -2,7 +2,7 @@
 
 A full-stack web application that leverages AI to help users prepare for interviews. It features personalized question generation, session management, and user authentication, with a modern, responsive UI.
 
-[![Interview Prep AI Homepage](frontend/AI_Powered_Interview_Prep_App/public/homepage.png)](frontend/AI_Powered_Interview_Prep_App/public/homepage.png)
+[![Interview Prep AI Homepage](frontend/public/homepage.png)](frontend/AI_Powered_Interview_Prep_App/public/homepage.png)
 *Homepage of Interview Prep AI*
 
 ## Table of Contents
